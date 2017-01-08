@@ -1,5 +1,7 @@
 # Don't do anything
 
+![WTFPL](license.png)
+
 A simple program designed to not doing anything.
 
 ## Download
