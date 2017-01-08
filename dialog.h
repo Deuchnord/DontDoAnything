@@ -27,7 +27,7 @@ private slots:
 
 private:
     Ui::Dialog *ui;
-    long time = 60;
+    long time;
 };
 
 #endif // DIALOG_H
