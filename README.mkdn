@@ -2,14 +2,14 @@
 
 [![Build Status](https://travis-ci.org/Deuchnord/DontDoAnything.svg?branch=master)](https://travis-ci.org/Deuchnord/DontDoAnything) ![WTFPL](license.png) 
 
-![Screenshot](screenshot.png)
+A simple program designed for not doing anything.
 
-A simple program designed to not doing anything.
+![Screenshot](screenshot.png)
 
 ## Download
 
 - **Linux:** [here](http://deuchnord.fr/dl/dontdoanything.bin)
-- **Windows:** _coming soon_
+- **Windows:** [here](http://deuchnord.fr/dl/dontdoanything.zip)
 - **Mac:** _don't know when it'll come_
 
 On Linux systems, you'll need Qt 5.8 or better. If your distrib does not
@@ -39,7 +39,13 @@ So typing this command:
 
 will make the program run for one hour.
 
-## The program is doing something / I've found a bug
+## FAQ
+
+## What's this ugly black DOS-like window which appears when I double-click the executable?
+
+Dear Windowsian, this is what one call a "console". It appears because the program provides somme command line stuffs, and Windows seems to force it to be visible. If you don't want to see it open, just clone the repository, open the `dontdoanything.pro` and remove the line `CONFIG += console` line, then compile.
+
+### The program is doing something / I've found a bug
 
 Just create an issue. Is you have some skills in C++ and Qt, you may fix it by
 yourself.
