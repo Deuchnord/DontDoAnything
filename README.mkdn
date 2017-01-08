@@ -1,6 +1,6 @@
 # Don't do anything
 
-![WTFPL](license.png)
+![WTFPL](license.png) [![Build Status](https://travis-ci.org/Deuchnord/DontDoAnything.svg?branch=master)](https://travis-ci.org/Deuchnord/DontDoAnything)
 
 A simple program designed to not doing anything.
 
