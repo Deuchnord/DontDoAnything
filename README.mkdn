@@ -1,0 +1,41 @@
+# Don't do anything
+
+A simple program designed to not doing anything.
+
+## Download
+
+- **Linux:** [here](http://deuchnord.fr/dl/dontdoanything.bin)
+- **Windows:** _coming soon_
+- **Mac:** _don't know when it'll come_
+
+On Linux systems, you'll need Qt 5.8 or better. If your distrib does not
+provide it, just install Qt development libraries, clone this repository and compile it:
+
+```bash
+git clone https://github.com/Deuchnord/DontDoAnything.git
+qmake
+make
+```
+
+## How to use it
+
+Graphically, just double click the executable to run it.
+
+From command line, some options are available:
+
+- `-h`: display the synopsis and the available options.
+- `-t <n>`: set the time (in seconds) for progress bar completion. By default, it
+  is 60 s.
+
+So typing this command:
+
+```bash
+./dontdoanything -t 3600
+```
+
+will make the program run for one hour.
+
+## The program is doing something / I've found a bug
+
+Just create an issue. Is you have some skills in C++ and Qt, you may fix it by
+yourself.
