@@ -41,7 +41,7 @@ will make the program run for one hour.
 
 ## FAQ
 
-## What's this ugly black DOS-like window which appears when I double-click the executable?
+### What's this ugly black DOS-like window which appears when I double-click the executable?
 
 Dear Windowsian, this is what one call a "console". It appears because the program provides somme command line stuffs, and Windows seems to force it to be visible. If you don't want to see it open, just clone the repository, open the `dontdoanything.pro` and remove the line `CONFIG += console` line, then compile.
 
