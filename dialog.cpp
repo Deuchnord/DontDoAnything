@@ -10,6 +10,7 @@ Dialog::Dialog(QWidget *parent) :
     QDialog(parent),
     ui(new Ui::Dialog)
 {
+    time = 60;
     ui->setupUi(this);
 }
 
